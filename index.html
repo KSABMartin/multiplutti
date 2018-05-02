@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+© 2015 Kunskapsskolan Education AB all rights reserved
+including all other voodoo lawyering terms and conditions.
+-->
+<html>
+    <head>
+        <title>Multiplutti version b1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script type='text/javascript' src="js/jquery-1.9.1.js"></script>
+        
+        <script type="text/javascript" src="js/libs/jquery-cookie/jquery.cookie.js"></script>
+		<script type='text/javascript' src="js/jquery-ui.js"></script> 
+		
+		
+        <script type="text/javascript" src="js/multiplication_test.js"></script>
+        
+       <!-- <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/game.css">
+    </head>
+    <body>
+        <div id="splash">
+            <div id="title">Multiplutti</div>
+            <div id="credits"><p>Programming & Design: Martin Ahlqvist</p><p>Music: l3go by <a target="_blank" href="http://freemusicarchive.org/music/Rolemusic/">Rolemusic</a></p><p>SFX: Martin Ahlqvist</p></div>
+             <div id="start">Click here to start!</div></div>
+        <div id="modal"></div>
+        <div id="multiplutti">
+                <div id="topRow">
+                    <div id="controls">
+                        <div class="pause">Music: Off</div><div class="play">Music: On</div>
+                    </div>
+                <div id="results">
+                    <div id="scoreName">Score:</div>
+                    <div id="score">0</div>
+                    <div id="hiScoreName">Hiscore:</div>
+                    <div id="hiscore">0</div>
+                </div>
+                    
+            </div>
+            <div id="powerUpBarContainer"><div id="multiplier">score x 3</div><div id="powerUpBar"><div id="powerAnimation"></div></div></div>
+            <div id="factors">
+                <div id="factorA"></div>
+                <div id="sign"></div>
+                <div id="factorB"></div>
+            </div>
+            <div id="userInput"></div>
+            
+            <div id="screenKeyboard">
+                <div class="keyRow">
+                    <div class="key">1</div>
+                    <div class="key">2</div>
+                    <div class="key">3</div>
+                </div>
+                <div class="keyRow">
+                    <div class="key">4</div>
+                    <div class="key">5</div>
+                    <div class="key">6</div>
+                </div>
+                <div class="keyRow">
+                    <div class="key">7</div>
+                    <div class="key">8</div>
+                    <div class="key">9</div>
+                </div>
+                <div class="keyRow">
+                    <div class="delKey">del</div>
+                    <div class="key">0</div>
+                    <div class="equalKey">=</div>
+                </div>
+            </div>        
+        </div>
+    </body>
+    
+</html>
