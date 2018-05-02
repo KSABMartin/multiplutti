@@ -75,7 +75,7 @@ body {
 #factors {
     /* clear:both; */
     /* margin-top: 4vw; */
-    display: inline;
+    display: inline-block;
     font-size: 23vw;
     /* border: 1px #f00 solid; */
 }
