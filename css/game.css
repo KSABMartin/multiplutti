@@ -86,7 +86,6 @@ body {
 }
 
 #factorA, #factorB{
-    width: 30%; 
     text-align: center;
     display: inline-block;
     text-shadow: 0 0 1vw #EAB200;
