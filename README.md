@@ -17,3 +17,5 @@ type can be *, + or -
 Would create an exercise for multiplication table 4 up to 10...
 
 'https://martinahlqvist.github.io/multiplutti/?multiA=4&multiB=4&multiC=1&multiD=10&type=*'
+
+The * needs to be manually included in the URL... 😊
